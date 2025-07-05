@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-blue: #1e40af;
+  --secondary-blue: #3b82f6;
+  --light-blue: #dbeafe;
+  --accent-pink: #ec4899;
+  --light-pink: #fdf2f8;
+  --dark-navy: #1e293b;
+  --light-gray: #f8fafc;
+  --medium-gray: #64748b;
+}
+
+body {
+  background-color: var(--light-gray);
+  color: var(--dark-navy);
+}
+
+.bg-primary-blue {
+  background-color: var(--primary-blue);
+}
+
+.bg-secondary-blue {
+  background-color: var(--secondary-blue);
+}
+
+.bg-light-blue {
+  background-color: var(--light-blue);
+}
+
+.bg-accent-pink {
+  background-color: var(--accent-pink);
+}
+
+.bg-light-pink {
+  background-color: var(--light-pink);
+}
+
+.bg-dark-navy {
+  background-color: var(--dark-navy);
+}
+
+.text-primary-blue {
+  color: var(--primary-blue);
+}
+
+.text-secondary-blue {
+  color: var(--secondary-blue);
+}
+
+.text-accent-pink {
+  color: var(--accent-pink);
+}
+
+.text-dark-navy {
+  color: var(--dark-navy);
+}
+
+.text-medium-gray {
+  color: var(--medium-gray);
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 50%, var(--accent-pink) 100%);
+}
+
+.navbar-shadow {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive navbar fixes */
+@media (max-width: 1280px) {
+  .navbar-responsive {
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .navbar-responsive::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Hero section improvements */
+.hero-card-hover:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
