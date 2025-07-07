@@ -1,61 +1,46 @@
-
 "use client"
 
 import { FileText } from "lucide-react"
 import Link from "next/link"
 
-export default function SemesterOnePage() {
+export default function SemesterThreePage() {
   const documents = [
     {
-      title: "Communicative English",
-      href: "/pdf/semester1/1 Communicative English_020222.pdf",
+      title: "Applied Microbiology and Infection Control including Safety",
+      href: "public/pdf/III Semester/1 Applied Microbiology And  Infection Control Including Safety_201022.pdf",
     },
     {
-      title: "Applied Anatomy",
-      href: "/pdf/semester1/2 Applied Anatomy_020222.pdf",
+      title: "Pharmacology – I",
+      href: "/pdf/III Semester/2 Pharmacology-I_201022.pdf",
     },
     {
-      title: "Applied Physiology",
-      href: "/pdf/semester1/3 Applied Physiology_020222.pdf",
+      title: "Pathology – I",
+      href: "/pdf/III Semester/3 Pathology-I_201022.pdf",
     },
     {
-      title: "Applied Sociology",
-      href: "/pdf/semester1/4 Applied Sociology_020222.pdf",
+      title: "Adult Health Nursing – I",
+      href: "/pdf/III Semester/4 Adult Health Nursing_201022.pdf",
     },
     {
-      title: "Applied Psychology",
-      href: "/pdf/semester1/5 Applied Pychology_020222.pdf",
-    },
-    {
-      title: "Nursing Foundation – I (incl. First Aid)",
-      href: "/pdf/semester1/6 NURSING FOUNDATION - I including First Aidmodule_020222.pdf",
-    },
-    {
-      title: "Course of Instruction – Semester 1",
-      href: "/pdf/semester1/Course  of Instruction I Semester_020222.pdf",
-    },
-    {
-      title: "Syllabus Introduction",
-      href: "/pdf/semester1/Syllabus introduction_020222.pdf",
+      title: "Course of Instruction – Semester 3",
+      href: "/pdf/III Semester/Course of Instruction III semester_201022.pdf",
     },
   ]
 
   return (
     <div className="container mx-auto px-4 py-14 relative">
-      {/* Heading */}
       <div className="text-center mb-12">
         <div className="flex justify-center items-center mb-4">
           <FileText className="h-10 w-10 text-red-600" />
         </div>
         <h1 className="text-4xl font-extrabold text-gray-800 mb-4">
-          Semester 1 – Syllabus Documents
+          Semester 3 – Syllabus Documents
         </h1>
         <p className="text-gray-600 max-w-3xl mx-auto text-lg">
-          Click on any subject below to <strong>view the syllabus</strong> in detail. Each file will open in a new tab.
+          Click on any subject below to <strong>view the syllabus</strong>. Each file opens in a new tab.
         </p>
       </div>
 
-      {/* Table */}
       <div className="overflow-x-auto shadow-md rounded-xl bg-white relative z-10">
         <table className="min-w-full border border-gray-200 text-sm text-gray-700">
           <thead className="bg-purple-50 text-red-800 uppercase text-left text-xs">
@@ -85,9 +70,8 @@ export default function SemesterOnePage() {
         </table>
       </div>
 
-      {/* Note */}
       <div className="mt-8 bg-yellow-50 border-l-4 border-yellow-400 text-yellow-800 p-6 rounded-md shadow max-w-3xl mx-auto">
-        <strong>Note:</strong> All syllabus documents are in HTML format and will open in a new tab. Ensure your browser allows pop-ups.
+        <strong>Note:</strong> All documents open in a new tab. Make sure your browser allows pop-ups.
       </div>
     </div>
   )

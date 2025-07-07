@@ -20,22 +20,9 @@ export default function HomePage() {
             <div className="bg-white border-l-4 border-l-accent-pink p-6 rounded-lg inline-block mb-8 shadow-lg max-w-2xl">
               <div className="flex items-center justify-center space-x-4 mb-4">
                 <div className="text-accent-pink text-2xl">🎓</div>
-                <h2 className="text-2xl font-bold text-dark-navy">Admissions Open 2024-25</h2>
+                <h2 className="text-2xl font-bold text-dark-navy">Admissions Open 2025-26</h2>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
-                <div className="text-center">
-                  <p className="font-semibold text-primary-blue">Total Seats</p>
-                  <p className="text-dark-navy">60</p>
-                </div>
-                <div className="text-center">
-                  <p className="font-semibold text-secondary-blue">Course Duration</p>
-                  <p className="text-dark-navy">4 Years</p>
-                </div>
-                <div className="text-center">
-                  <p className="font-semibold text-accent-pink">NEET Required</p>
-                  <p className="text-dark-navy">Yes</p>
-                </div>
-              </div>
+              
               <div className="mt-4 space-x-4">
                 <Button asChild size="lg" className="bg-primary-blue hover:bg-secondary-blue">
                   <Link href="/admission">Apply Now</Link>
@@ -58,7 +45,7 @@ export default function HomePage() {
               <div
                 className="h-64 bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('/placeholder.svg?height=250&width=300')`,
+                  backgroundImage: `url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')`,
                 }}
               >
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -73,7 +60,7 @@ export default function HomePage() {
               <div
                 className="h-64 bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('/placeholder.svg?height=250&width=300')`,
+                  backgroundImage: `url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')`,
                 }}
               >
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -88,7 +75,7 @@ export default function HomePage() {
               <div
                 className="h-64 bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('/placeholder.svg?height=250&width=300')`,
+                  backgroundImage: `url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')`,
                 }}
               >
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -103,7 +90,7 @@ export default function HomePage() {
               <div
                 className="h-64 bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('/placeholder.svg?height=250&width=300')`,
+                  backgroundImage: `url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')`,
                 }}
               >
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
@@ -174,7 +161,7 @@ export default function HomePage() {
       </section>
 
       {/* Courses Section */}
-      <section className="py-16 bg-light-blue">
+      {/* <section className="py-16 bg-light-blue">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-dark-navy mb-12">Our Courses</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -193,44 +180,12 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-xl transition-shadow">
-              <CardHeader>
-                <CardTitle className="text-secondary-blue">P.B. B.Sc. (Proposed)</CardTitle>
-                <CardDescription>Post-basic nursing program</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-medium-gray mb-4">
-                  Advanced nursing education for registered nurses seeking specialization
-                </p>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="w-full border-secondary-blue text-secondary-blue hover:bg-secondary-blue hover:text-white bg-transparent"
-                >
-                  <Link href="/courses/pb-bsc-proposed">Coming Soon</Link>
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="hover:shadow-xl transition-shadow">
-              <CardHeader>
-                <CardTitle className="text-accent-pink">G.N.M. (Proposed)</CardTitle>
-                <CardDescription>General Nursing & Midwifery</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-medium-gray mb-4">3.5-year diploma program in general nursing and midwifery</p>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="w-full border-accent-pink text-accent-pink hover:bg-accent-pink hover:text-white bg-transparent"
-                >
-                  <Link href="/courses/gnm-proposed">Coming Soon</Link>
-                </Button>
-              </CardContent>
-            </Card>
+           
           </div>
         </div>
-      </section>
+      </section> */}
+      
+
 
       {/* CTA Section */}
       <section className="py-16 bg-dark-navy text-white">

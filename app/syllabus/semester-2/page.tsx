@@ -1,42 +1,29 @@
-
 "use client"
 
 import { FileText } from "lucide-react"
 import Link from "next/link"
 
-export default function SemesterOnePage() {
+export default function SemesterTwoPage() {
   const documents = [
     {
-      title: "Communicative English",
-      href: "/pdf/semester1/1 Communicative English_020222.pdf",
+      title: "Applied Biochemistry",
+      href: "/pdf/II semester/1 APPLIED BIOCHEMISTRY_020222.pdf",
     },
     {
-      title: "Applied Anatomy",
-      href: "/pdf/semester1/2 Applied Anatomy_020222.pdf",
+      title: "Applied Nutrition and Dietetics",
+      href: "/pdf/II semester/1 APPLIED NUTRITION AND DIETETICS_020222.pdf",
     },
     {
-      title: "Applied Physiology",
-      href: "/pdf/semester1/3 Applied Physiology_020222.pdf",
+      title: "Nursing Foundation II (incl. Health Assessment)",
+      href: "/pdf/II semester/3 Helth Nursing Informatics Technology_020222.pdf",
     },
     {
-      title: "Applied Sociology",
-      href: "/pdf/semester1/4 Applied Sociology_020222.pdf",
+      title: "Health Nursing Informatics Technology",
+      href: "/pdf/II semester/3 Helth Nursing Informatics Technology_020222.html",
     },
     {
-      title: "Applied Psychology",
-      href: "/pdf/semester1/5 Applied Pychology_020222.pdf",
-    },
-    {
-      title: "Nursing Foundation – I (incl. First Aid)",
-      href: "/pdf/semester1/6 NURSING FOUNDATION - I including First Aidmodule_020222.pdf",
-    },
-    {
-      title: "Course of Instruction – Semester 1",
-      href: "/pdf/semester1/Course  of Instruction I Semester_020222.pdf",
-    },
-    {
-      title: "Syllabus Introduction",
-      href: "/pdf/semester1/Syllabus introduction_020222.pdf",
+      title: "Course of Instruction – Semester 2",
+      href: "/pdf/II semester/Course of instruction Second Semester_020222.pdf",
     },
   ]
 
@@ -48,7 +35,7 @@ export default function SemesterOnePage() {
           <FileText className="h-10 w-10 text-red-600" />
         </div>
         <h1 className="text-4xl font-extrabold text-gray-800 mb-4">
-          Semester 1 – Syllabus Documents
+          Semester 2 – Syllabus Documents
         </h1>
         <p className="text-gray-600 max-w-3xl mx-auto text-lg">
           Click on any subject below to <strong>view the syllabus</strong> in detail. Each file will open in a new tab.

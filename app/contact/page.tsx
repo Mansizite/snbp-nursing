@@ -1,3 +1,5 @@
+"use client"
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Mail, Phone, MapPin, Clock } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -17,6 +19,7 @@ export default function ContactPage() {
 
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+          {/* Contact Info */}
           <div className="space-y-6">
             <Card className="border-t-4 border-t-primary-blue">
               <CardHeader>
@@ -26,7 +29,7 @@ export default function ContactPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-medium-gray">presidentsnbp@gmail.com</p>
+                <p className="text-medium-gray">snbp.nursing@snbpinstitutes.in</p>
               </CardContent>
             </Card>
 
@@ -38,8 +41,9 @@ export default function ContactPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-medium-gray">+91 7774055233</p>
-                <p className="text-medium-gray">+91 7774059624</p>
+                <p className="text-medium-gray">+91 8446301404
+</p>
+                <p className="text-medium-gray">+91 9730174284</p>
               </CardContent>
             </Card>
 
@@ -52,8 +56,7 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-medium-gray">
-                  GAT.NO.71/1, 90, 94, RIVER RESIDENCY,
-                  <br />
+                  GAT.NO.71/1, 90, 94, RIVER RESIDENCY,<br />
                   DEHU-ALANDI ROAD, CHIKALI-PUNE-411062
                 </p>
               </CardContent>
@@ -74,6 +77,7 @@ export default function ContactPage() {
             </Card>
           </div>
 
+          {/* Updated Contact Form */}
           <Card>
             <CardHeader>
               <CardTitle>Send us a Message</CardTitle>
@@ -88,15 +92,7 @@ export default function ContactPage() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-dark-navy mb-2">Email</label>
-                <input
-                  type="email"
-                  className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-blue focus:border-transparent"
-                  placeholder="your.email@example.com"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-dark-navy mb-2">Phone</label>
+                <label className="block text-sm font-medium text-dark-navy mb-2">Mobile Number</label>
                 <input
                   type="tel"
                   className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-blue focus:border-transparent"
@@ -104,14 +100,14 @@ export default function ContactPage() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-dark-navy mb-2">Message</label>
+                <label className="block text-sm font-medium text-dark-navy mb-2">Your Enquiry</label>
                 <textarea
-                  rows={4}
+                  rows={5}
                   className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-blue focus:border-transparent"
-                  placeholder="Your message here..."
+                  placeholder="Write your query or message here..."
                 ></textarea>
               </div>
-              <Button className="w-full bg-primary-blue text-white hover:bg-secondary-blue">Send Message</Button>
+              <Button className="w-full bg-primary-blue text-white hover:bg-secondary-blue">Submit</Button>
             </CardContent>
           </Card>
         </div>

@@ -11,11 +11,11 @@ export default function Footer() {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-accent-pink" />
-                <span>presidentsnbp@gmail.com</span>
+                <span>snbp.nursing@snbpinstitutes.in</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-accent-pink" />
-                <span>+91 7774055233 / 7774059624</span>
+                <span>+91 8446301404 /9730174284</span>
               </div>
               <div className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 mt-1 text-accent-pink" />
@@ -68,7 +68,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-gray-300">&copy; 2024 SunRayz Technology. All rights reserved.</p>
+          <p className="text-gray-300">&copy; 2025 SunRayz Technology. All rights reserved.</p>
         </div>
       </div>
     </footer>
