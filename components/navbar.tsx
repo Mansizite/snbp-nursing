@@ -1013,8 +1013,8 @@ const navigationItems = [
     href: "/courses",
     items: [
       { title: "B.Sc. Nursing", href: "/courses/bsc-nursing" },
-      { title: "P.B. B.Sc. (Proposed)", href: "/courses/pb-bsc-proposed" },
-      { title: "G.N.M. (Proposed)", href: "/courses/gnm-proposed" },
+      // { title: "P.B. B.Sc. (Proposed)", href: "/courses/pb-bsc-proposed" },
+      // { title: "G.N.M. (Proposed)", href: "/courses/gnm-proposed" },
     ],
   },
   {
