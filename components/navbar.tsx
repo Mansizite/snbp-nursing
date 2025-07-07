@@ -1247,13 +1247,13 @@ export default function Navbar() {
               <div className="flex items-center space-x-3 pb-4 border-b">
                 <div className="relative h-10 w-28">
                   <Image
-                    src="/college-logo.png"
-                    alt="Logo"
-                    fill
-                    className="object-contain"
-                  />
+              src="/logo-image.png"
+              alt="Logo"
+              fill
+              className="object-contain"
+            />
                 </div>
-                <span className="font-bold text-xl text-gray-800">Nursing College</span>
+               
               </div>
 
               {navigationItems.map((item) => (
