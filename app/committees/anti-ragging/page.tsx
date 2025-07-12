@@ -100,11 +100,11 @@ export default function AntiRaggingPage() {
             <div className="space-y-4">
               <div>
                 <h4 className="font-semibold text-dark-gray">24/7 Helpline</h4>
-                <p className="text-light-black">+91 XXXXXXXXXX</p>
+                <p className="text-light-black">+91 8446301404 /9730174284</p>
               </div>
               <div>
                 <h4 className="font-semibold text-dark-gray">Email</h4>
-                <p className="text-light-black">antiragging@college.edu</p>
+                <p className="text-light-black">snbp.nursing@snbpinstitutes.in</p>
               </div>
               <div>
                 <h4 className="font-semibold text-dark-gray">UGC Anti-Ragging Helpline</h4>
